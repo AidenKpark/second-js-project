@@ -1,0 +1,95 @@
+body{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .header{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100px;
+        .upper-header{
+            width: 600px;
+            height: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .logo{
+                width: 20%;
+                height: 52px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 80%;
+                    height: 32px;
+                    object-fit: cover;
+                }
+            }
+            .search-box{
+                background-color: #F2F3F7;
+                position: relative;
+                width: 70%;
+                height: 32px;
+                border-radius: 20px;
+                display: flex;
+                .left-search{
+                    width: 8%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .right-search{
+                    width: 90%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .search{
+                        width: 100%;
+                        border: none;
+                        background-color: transparent;
+                    }
+                }
+            }
+            .basket{
+
+                width: 10%;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i{
+                    width: 30px;
+                    height: 30px;
+                    font-size: 20px;
+                }
+            }
+        }
+        .bottom-header{
+            width: 600px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            .section{
+                width: 190px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .sec-home{
+                color: black;
+                border-bottom:2px solid black ;
+            }
+            .sec-brandFashion{
+                color: #808080;
+            }
+            .sec-beauty{
+                color: #808080;
+            }
+        }
+    }    
+}
